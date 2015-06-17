@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <Gimbal/Gimbal.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [Gimbal setAPIKey:@"3ab23ceb-2524-4d82-b83c-bf2ca8ffcb5f" options:nil];
     return YES;
 }
 
